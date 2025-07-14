@@ -1,17 +1,15 @@
-from flask import Flask, jsonify
-import json
 import os
+import json
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# Load mock movie data
 def load_movies():
-    with open(os.path.join('data', 'movies.json'), 'r') as f:
+    # Always resolve path relative to app.py
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(base_path, 'data', 'movies.json')
+    with open(data_path, 'r') as f:
         return json.load(f)
-
-@app.route('/', methods=['GET'])
-def home():
-    return jsonify({"message": "Welcome to the DevFlix Catalogue Service. Visit /movies to see the list."})
 
 @app.route('/movies', methods=['GET'])
 def get_movies():

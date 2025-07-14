@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "The Social Network",
+    "description": "The story of Facebook's creation and the lawsuits that followed",
+    "genres": ["Drama", "Biography"],
+    "year": 2010,
+    "rating": 7.7,
+    "tech_themes": ["Social Media", "Entrepreneurship", "Programming"],
+    "poster_url": "https://via.placeholder.com/300x450/007ACC/FFFFFF?text=The+Social+Network",
+    "trailer_url": "https://www.youtube.com/watch?v=lB95KLmpLR4"
+  },
+  {
+    "id": 2,
+    "title": "Ex Machina",
+    "description": "A young programmer tests an AI's consciousness",
+    "genres": ["Sci-Fi", "Drama", "Thriller"],
+    "year": 2014,
+    "rating": 7.7,
+    "tech_themes": ["AI", "Machine Learning", "Ethics"],
+    "poster_url": "https://via.placeholder.com/300x450/FF6B6B/FFFFFF?text=Ex+Machina",
+    "trailer_url": "https://www.youtube.com/watch?v=EoQuVnKhxaM"
+  },
+  {
+    "id": 3,
+    "title": "The Matrix",
+    "description": "A computer hacker learns reality is a simulation",
+    "genres": ["Sci-Fi", "Action"],
+    "year": 1999,
+    "rating": 8.7,
+    "tech_themes": ["Virtual Reality", "Hacking", "Simulation"],
+    "poster_url": "https://via.placeholder.com/300x450/4ECDC4/FFFFFF?text=The+Matrix",
+    "trailer_url": "https://www.youtube.com/watch?v=vKQi3bIA1HI"
+  },
+  {
+    "id": 4,
+    "title": "Hackers",
+    "description": "Young hackers uncover a conspiracy",
+    "genres": ["Crime", "Drama", "Thriller"],
+    "year": 1995,
+    "rating": 6.2,
+    "tech_themes": ["Hacking", "Cybersecurity", "Programming"],
+    "poster_url": "https://via.placeholder.com/300x450/45B7D1/FFFFFF?text=Hackers",
+    "trailer_url": "https://www.youtube.com/watch?v=Rn2cf_wJ4f4"
+  },
+  {
+    "id": 5,
+    "title": "Steve Jobs",
+    "description": "Behind the scenes of Apple's iconic product launches",
+    "genres": ["Biography", "Drama"],
+    "year": 2015,
+    "rating": 7.2,
+    "tech_themes": ["Innovation", "Leadership", "Product Design"],
+    "poster_url": "https://via.placeholder.com/300x450/F7931E/FFFFFF?text=Steve+Jobs",
+    "trailer_url": "https://www.youtube.com/watch?v=aEr6K1bwIVs"
+  }
+]

@@ -1,0 +1,1 @@
+Spring Boot service. To be scaffolded using Spring Initializr.

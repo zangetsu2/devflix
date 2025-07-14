@@ -9,6 +9,10 @@ def load_movies():
     with open(os.path.join('data', 'movies.json'), 'r') as f:
         return json.load(f)
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "Welcome to the DevFlix Catalogue Service. Visit /movies to see the list."})
+
 @app.route('/movies', methods=['GET'])
 def get_movies():
     movies = load_movies()

@@ -11,6 +11,10 @@ def load_movies():
     with open(data_path, 'r') as f:
         return json.load(f)
 
+@app.route('/', methods=['GET'])
+def root():
+    return jsonify({"message": "DevFlix Catalogue Service. Use /movies endpoint"}), 200
+
 @app.route('/movies', methods=['GET'])
 def get_movies():
     movies = load_movies()
